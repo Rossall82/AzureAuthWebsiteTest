@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <form method="get">
+        <button type="submit" asp-page="./Index" class="btn-primary">Click me to test auth</button>
+    </form>
+</div>
